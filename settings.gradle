@@ -1,0 +1,21 @@
+rootProject.name = 'mainapp'
+include('app')
+
+dependencyResolutionManagement {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = "https://maven.pkg.github.com/MuhammadAEws/gradle-version-catalog"
+            credentials {
+                    username = System.getenv("GH_USERNAME")
+                    password = System.getenv("GH_PACKAGES_TOKEN")
+                    
+            }
+        }
+    }
+    versionCatalogs {
+        libs {
+            from("com.mzae:version-catalog-proj:0.0.2")
+        }
+    }
+}
