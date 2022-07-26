@@ -40,7 +40,6 @@
 		}
 	}
   ],
-  
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
