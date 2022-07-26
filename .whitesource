@@ -14,6 +14,33 @@
     "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY"
   },
+  "hostRules":[
+  {
+		"matchHost": "https://maven.pkg.github.com/MuhammadAEws/_",
+		"hostType": "gradle",
+		"userName": "MuhammadAEws",
+		"encrypted": {
+			"token": "wcBMA90FtVIhcznKAQf+O94aDqFuziyTGbkE1xa8BlfJjIkBtgEHQV42hki/hEeX8Ztt6GfV3bixAA0L+3kwSlOgt79GFACKPxEwrIt4nuTZXRJTXzv2DBvKvDJgRKTEBoCHsQLCeyOysWJ+j4jbrekVh86RCmU+lswY0S0908PqvkjUunNFABENuSj3Ts9Y/wby1cZ18RAc+5jae/sxt+2QQmdduXy2kpE3A9YQoN4H0m83JIQxTFh+xRnLSaE2N8nvIOyhEyY0hrw+6MRuamoG1iV8idxo9HaTuFFCkemKq2WuyxVx89J93S2LISpGO60w4BSODVmcvdtfLXbe+sQnxaA6O/P/UFGQe+K8ttJ7AS7RardiB2CPAjNeRJ7GRNG5TT5HjE0zL3ksSusznvR0Qa27sgMa22/Q9tWhPz/H4IJndd5diVkFjhIH/tAVDmEUTXa12oVpnASYS+tMT4C5oYKj3JOj/bi5GjOTsAm08iSNLkmRooNDazmVGUsg+M5mL+V6xnQYN3rM"
+		}
+	},
+	{
+		"matchHost": "https://maven.pkg.github.com/MuhammadAEws/gradle-version-catalog",
+		"hostType": "gradle",
+		"userName": "MuhammadAEws",
+		"encrypted": {
+			"token": "wcBMA90FtVIhcznKAQf+O94aDqFuziyTGbkE1xa8BlfJjIkBtgEHQV42hki/hEeX8Ztt6GfV3bixAA0L+3kwSlOgt79GFACKPxEwrIt4nuTZXRJTXzv2DBvKvDJgRKTEBoCHsQLCeyOysWJ+j4jbrekVh86RCmU+lswY0S0908PqvkjUunNFABENuSj3Ts9Y/wby1cZ18RAc+5jae/sxt+2QQmdduXy2kpE3A9YQoN4H0m83JIQxTFh+xRnLSaE2N8nvIOyhEyY0hrw+6MRuamoG1iV8idxo9HaTuFFCkemKq2WuyxVx89J93S2LISpGO60w4BSODVmcvdtfLXbe+sQnxaA6O/P/UFGQe+K8ttJ7AS7RardiB2CPAjNeRJ7GRNG5TT5HjE0zL3ksSusznvR0Qa27sgMa22/Q9tWhPz/H4IJndd5diVkFjhIH/tAVDmEUTXa12oVpnASYS+tMT4C5oYKj3JOj/bi5GjOTsAm08iSNLkmRooNDazmVGUsg+M5mL+V6xnQYN3rM"
+		}
+	},
+	{
+		"matchHost": "https://maven.pkg.github.com/MuhammadAEws/gradle-private-dep",
+		"hostType": "gradle",
+		"userName": "MuhammadAEws",
+		"encrypted": {
+			"token": "wcBMA90FtVIhcznKAQf+O94aDqFuziyTGbkE1xa8BlfJjIkBtgEHQV42hki/hEeX8Ztt6GfV3bixAA0L+3kwSlOgt79GFACKPxEwrIt4nuTZXRJTXzv2DBvKvDJgRKTEBoCHsQLCeyOysWJ+j4jbrekVh86RCmU+lswY0S0908PqvkjUunNFABENuSj3Ts9Y/wby1cZ18RAc+5jae/sxt+2QQmdduXy2kpE3A9YQoN4H0m83JIQxTFh+xRnLSaE2N8nvIOyhEyY0hrw+6MRuamoG1iV8idxo9HaTuFFCkemKq2WuyxVx89J93S2LISpGO60w4BSODVmcvdtfLXbe+sQnxaA6O/P/UFGQe+K8ttJ7AS7RardiB2CPAjNeRJ7GRNG5TT5HjE0zL3ksSusznvR0Qa27sgMa22/Q9tWhPz/H4IJndd5diVkFjhIH/tAVDmEUTXa12oVpnASYS+tMT4C5oYKj3JOj/bi5GjOTsAm08iSNLkmRooNDazmVGUsg+M5mL+V6xnQYN3rM"
+		}
+	}
+  ],
+  
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
