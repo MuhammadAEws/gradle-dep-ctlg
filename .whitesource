@@ -14,7 +14,8 @@
     "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY"
   },
-  "hostRules":[
+  "hostRules": [
+  
   {
 		"matchHost": "https://maven.pkg.github.com/MuhammadAEws/_",
 		"hostType": "gradle",
